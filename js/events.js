@@ -9,8 +9,13 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
+<<<<<<< HEAD
     $('img').addClass('tasty');
     return;
+=======
+    addClass('tasty');
+    return ;
+>>>>>>> 91e02ce6ebef857c2595df50d644576148fb2931
   });
 }
 
@@ -28,12 +33,19 @@ function submitIt() {
   })
 }
 
+<<<<<<< HEAD
 
 frameIt();
 
 $(document).ready(function(){
 
 getIt();
+=======
+$(document).ready(function(){
+
+getIt();
+frameIt();
+>>>>>>> 91e02ce6ebef857c2595df50d644576148fb2931
 pressIt();
 submitIt()
 
